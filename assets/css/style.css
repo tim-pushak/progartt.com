@@ -21,7 +21,7 @@ a {
 }
 
 a:hover {
-    color: #067ded;
+    color: #000000;
     text-decoration: none;
 }
 
@@ -37,6 +37,23 @@ h6 {
 .front_logo {
     margin-right: -15px;
     margin-top: -15px;
+}
+
+.form_link {
+    margin-left: 15px !IMPORTANT;
+}
+
+.form_link:hover {
+    color: #fff;
+    background-color: #45505b;
+    padding: 7px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+.form_link:active {
+    color: #45505b;
+    transition: all.3s ease;
 }
 
 
@@ -1287,5 +1304,9 @@ section {
 }
 
 #footer .credits {
+    font-size: 13px;
+}
+
+footer .credits {
     font-size: 13px;
 }
