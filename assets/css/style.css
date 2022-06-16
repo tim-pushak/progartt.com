@@ -1306,7 +1306,8 @@ section {
     font-size: 15;
     font-style: italic;
     padding: 0;
-    margin: 0 0 40px 0;
+    /* margin: 0 0 40px 0; */
+    margin: 20px 10px 60px;
 }
 
 #footer .social-links {
