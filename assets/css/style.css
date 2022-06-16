@@ -43,6 +43,13 @@ h6 {
     margin-left: 15px !IMPORTANT;
 }
 
+.key_words {
+    background-color: #000;
+    color: #fff;
+    padding: 5px;
+    border-radius: 20px;
+}
+
 .form_link:hover {
     color: #fff;
     background-color: #45505b;
@@ -110,7 +117,7 @@ h6 {
 }
 
 .back-to-top:hover {
-    background: #0678e3;
+    background: #000000;
     color: #fff;
 }
 
@@ -604,16 +611,16 @@ section {
     width: 40% !important;
 }
 
-.progress-bar_react {
-    width: 30% !important;
+.progress-bar_hard {
+    width: 45% !important;
 }
 
-.progress-bar_cms {
-    width: 55% !important;
+.progress-bar_soft {
+    width: 75% !important;
 }
 
-.progress-bar_ps {
-    width: 45%;
+.progress-bar_eng {
+    width: 47%;
 }
 
 
@@ -1322,7 +1329,7 @@ section {
 }
 
 #footer .social-links a:hover {
-    background: #0678e3;
+    background: #000000;
     color: #fff;
     text-decoration: none;
 }
