@@ -1178,7 +1178,8 @@ section {
 
 .contact .info .email:hover i,
 .contact .info .address:hover i,
-.contact .info .phone:hover i {
+.contact .info .phone:hover i,
+.contact .info .chat:hover i {
     background: #45505b;
     color: #fff;
 }
@@ -1345,4 +1346,31 @@ section {
 
 footer .credits {
     font-size: 13px;
+}
+
+.footerWrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imageWrap {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: row;
+} 
+
+.chat {
+    width: 200px;
+    margin-top: 15px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+}
+
+.chatIcon {
+    width: 80px !important;
+    height: 80px !important;
 }
